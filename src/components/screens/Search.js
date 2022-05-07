@@ -14,7 +14,9 @@ const Search = () => {
    const [image, setImage] = useState(null);
 
    const getData = data => {
+      // setTimeout(() => {
       setImage(data);
+      //  }, 500);
    }
 
    const windowWidth = Dimensions.get('window').width;
