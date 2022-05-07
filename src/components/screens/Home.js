@@ -3,7 +3,7 @@ import React from 'react'
 import FontAwesome from 'react-native-vector-icons/FontAwesome'
 import Feather from 'react-native-vector-icons/Feather'
 import Stories from '../screenComponents/Stories';
-
+import Post from '../screenComponents/Post';
 
 const Home = () => {
    return (
@@ -23,6 +23,7 @@ const Home = () => {
          </View>
          <ScrollView>
             <Stories />
+            <Post />
          </ScrollView>
       </View>
    )
